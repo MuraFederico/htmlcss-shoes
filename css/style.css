@@ -4,7 +4,12 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
 section{
+    position: relative;
     height: 100vh;
     width: 100%;
 }
@@ -19,4 +24,16 @@ section{
 
 .yellow{
     background-color: #feff00;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.green h1{
+    text-transform: uppercase;
+    color: #feff00;
 }
