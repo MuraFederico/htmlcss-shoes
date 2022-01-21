@@ -41,11 +41,11 @@ h1{
     text-align: center;
 }
 
-.green,.red h1{
+#green,#red h1{
     color: #feff00;
 }
 
-.yellow h1{
+#yellow h1{
     color: #008000;
 }
 
@@ -55,3 +55,21 @@ h1{
     right: 1.5rem;
 }
 
+button{
+    width: 80px;
+    height: 80px;
+    padding: 1rem;
+    border-radius: 50%;
+    line-height: 1em;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button:hover{
+    box-shadow:-3px 3px 1px 1px grey;
+}
+
+button:active{
+    background-color: rgb(190, 189, 189);
+}
